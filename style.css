@@ -105,21 +105,7 @@ h1 {
   cursor: pointer;
 }
 
-.btn1 {
-  border: none;
-  background-color: #eee;
-  color: #222;
-  font-size: 2rem;
-  font-family: inherit;
-  padding: 2rem 3rem;
-  cursor: pointer;
-}
-
 .btn:hover {
-  background-color: #ccc;
-}
-
-.btn1:hover {
   background-color: #ccc;
 }
 
@@ -140,160 +126,64 @@ h1 {
  padding: 7px;
 }
 
-@media only screen and (max-width: 412px){
-h1 {
-    font-size: 18px;
+@media only screen and (max-width:412px) {
+    main {
+      height: 50vh;
+      position: absolute;
+      display: block;
+      top: 418px;
+      left: 60px;
+  }
+}
+
+@media only screen and (max-width:412px){
+  .left {
+    width: 27rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+@media only screen and (max-width:412px) {
+  .footer {
+    font-family: sans-serif;
     text-align: center;
+    background-color: azure;
+    color: #222;
+    font-size: 15px;
+    padding: 7px;
     position: absolute;
-    width: 100%;
-    top: 49%;
-    left: 49%;
-    transform: translate(-50%, -50%);
+    bottom: 0px;
 }
 }
+
+@media only screen and (max-width:412px) {
+  .between {
+    font-size: 1.4rem;
+    position: absolute;
+    top: 23rem;
+    right: 9rem;
+}
+}
+
 @media only screen and (max-width:412px) {
   .btn {
     border: none;
     background-color: #eee;
     color: #222;
-    font-size: 9px;
+    font-size: 2rem;
     font-family: inherit;
-    padding: 2rem 1rem;
+    padding: 2rem 3rem;
     cursor: pointer;
-    /* position: absolute; */
-    display: block;
-    position: absolute;
-    left: 145px;
-  }  
-}
-
-@media only screen and (max-width: 412px){
-.between {
-    font-size: 12px;
-    position: absolute;
-    top: 15rem;
-    left: 11rem;
+    margin: 15px;
 }
 }
 
 @media only screen and (max-width:412px) {
-  .number{
+.again {
   position: absolute;
-  bottom: -7px;
-  left: 45%;
-  font-size: 4rem;
-    width: 10rem;
-    padding: 1rem 0rem;
+  top: 0rem;
+  left: 10rem;
 }
-}
-
-@media only screen and (max-width:412px) {
-  header {
-    position: relative;
-    height: 29vh;
-    border-bottom: 7px solid #eee;
-}
-}
-
-@media only screen and (max-width:412px) {
-  .guess {
-    background: none;
-    border: 4px solid #eee;
-    font-family: inherit;
-    color: inherit;
-    font-size: 6rem;
-    padding: 0.5rem;
-    width: 12rem;
-    text-align: center;
-    display: block;
-    margin-bottom: 1rem;
-    position: absolute;
-    left: 115px;
-    top: 360px;
-}
-}
-
-@media only screen and (max-width:412px) {
-  .btn1 {
-      border: none;
-      background-color: #eee;
-      color: #222;
-      font-size: 1rem;
-      font-family: inherit;
-      padding: 2rem 3rem;
-      cursor: pointer;
-      position: absolute;
-      left: 117px;
-      top: 160px;
-  }
-}
-
-
-@media only screen and (max-width: 412px){
-.label-score {
-    
-    font-size: 14px;
-    position: absolute;
-    top: 280px;
-    left: 44px;
-}}
-
-@media only screen and (max-width:412px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    font-size: 13px;
-}
-}
-
-@media only screen and (max-width:412px) {
-  .right {
-    /* width: 119rem; */
-    /* font-size: 2rem; */
-    position: absolute;
-    top: 161px;
-    left: 39px;
-}
-}
-
-@media only screen and (max-width:412px) {
-  .label-score {
-    position: absolute;
-    font-size: 14px;
-    left: 43px;
-    top: 337px;
-}
-}
-
-@media only screen and (max-width:412px) {
-  .label-highscore {
-    position: absolute;
-    font-size: 14px;
-    left: 43px;
-    top: 310px;
-    
-}
-}
-
-@media screen {
-  .message{
-  margin-bottom: 0rem;
-  height: 3rem;
-  position: absolute;
-  top: 280px;
-  left: 49px;
-}
-}
-
-@media only screen and (max-width:412px){
-  .footer{
-    padding: 9px;
-  }
-}
-
-@media screen {
-  .main{
-    width: 56vh;
-  }
 }
