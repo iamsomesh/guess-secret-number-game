@@ -127,13 +127,13 @@ h1 {
 }
 
 @media only screen and (max-width:412px) {
-    main {
-      height: 50vh;
-      position: absolute;
-      display: block;
-      top: 418px;
-      left: 60px;
-  }
+  main {
+    height: 50vh;
+    position: absolute;
+    display: block;
+    top: 257px;
+    left: 108px;
+}
 }
 
 @media only screen and (max-width:412px){
@@ -162,10 +162,11 @@ h1 {
   .between {
     font-size: 1.4rem;
     position: absolute;
-    top: 23rem;
-    right: 9rem;
+    top: 21rem;
+    right: 18rem;
 }
 }
+
 
 @media only screen and (max-width:412px) {
   .btn {
@@ -184,6 +185,14 @@ h1 {
 .again {
   position: absolute;
   top: 0rem;
-  left: 10rem;
+  left: 18rem;
+}
+}
+
+
+@media only screen and (max-width:412px) {
+html {
+  font-size: 42.5%;
+  box-sizing: border-box;
 }
 }
